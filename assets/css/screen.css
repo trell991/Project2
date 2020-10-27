@@ -14,4 +14,5 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-family: 'Roboto Condensed','Times New Roman','Georgia' sans-serif;
   font-size: 20px;
+  line-height: 25px;
 }
