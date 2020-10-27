@@ -15,6 +15,7 @@ html {
   font-family: 'Roboto Condensed','Times New Roman','Georgia' sans-serif;
   font-size: 20px;
   line-height: 25px;
+  padding: 25px 12.5px 25px 12.5px;
 }
 
 h1 {
@@ -23,4 +24,13 @@ h1 {
 
 p {
   padding-bottom:25px
+}
+
+h2 {
+  padding-bottom: 6.25px
+}
+
+ul {
+  padding-bottom: 6.25px;
+  list-style-type: disc;
 }
