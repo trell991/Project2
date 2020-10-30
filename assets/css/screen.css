@@ -65,3 +65,7 @@ ul {
       padding-bottom: 50px
     }
 }
+
+.nav a {
+  text-decoration: none;
+}
