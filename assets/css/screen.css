@@ -18,27 +18,27 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: 'Roboto Condensed','Times New Roman','Georgia' sans-serif;
-  font-size: 20px;
-  line-height: 25px;
-  padding: 25px 12.5px 25px 12.5px; /*TRBL*/
+  font-size: 1.25em; /* 20px / 16px = 1.125 */
+  line-height: 1.25em; /* 25px / 20px/ = 1.25 */
+  padding: 25px 12.5px 25px 12.5px; /*TRBL*/ /*   */
 }
 
 h1 {
-  font-size: 35.538px;
-  padding-bottom:25px;
+  font-size: 1.7769em; /* 35.538px / 20px = 1.7769 */
+  padding-bottom:0.703472339467612em; /* 25px / 35.538px =0.703472339467612 */
  }
 
 p {
-  padding-bottom:25px;
+  padding-bottom:1.5625em; /* 25px / 16px = 1.5625 */
 }
 
 h2 {
-  font-size: 26.66px;
-  padding-bottom: 6.25px;
+  font-size: 1.33em; /* 26.66px / 20px = 1.33 */
+  padding-bottom: 0.235404896421846em; /* 6.25x / 26.55px = 0.235404896421846 */
 }
 
 ul {
-  margin-left: 12.5px;
-  padding-bottom: 6.25px;
+  margin-left: 0.78125em; /* 12.5px / 16px = 0.78125 */
+  padding-bottom: .05em; /* 6.25px / 12.5px = .5 */
   list-style-type: disc;
 }
