@@ -70,5 +70,6 @@ ul {
 .nav a {
   text-decoration: none;
   display:block;
+  text-align: center;
   background: #FFFFFF
 }
