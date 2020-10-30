@@ -87,3 +87,9 @@ ul {
     width: 33.3333333333%;
   }
 }
+
+img {
+  display: block;
+  padding-top: 42%;
+  max-width: 100%;
+}
