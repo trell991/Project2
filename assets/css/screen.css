@@ -29,16 +29,15 @@ h1 {
  }
 
 p {
-  padding-bottom:1.5625em; /* 25px / 16px = 1.5625 */
+  padding-bottom:0.703472339467612em; /* 25px / 35.538px = 0.703472339467612 */
 }
 
 h2 {
-  font-size: 1.33em; /* 26.66px / 20px = 1.33 */
-  padding-bottom: 0.235404896421846em; /* 6.25x / 26.55px = 0.235404896421846 */
+  padding-bottom: 0.175868084866903em; /* 6.25x / 35.538px = 0.175868084866903 */
 }
 
 ul {
-  margin-left: 0.78125em; /* 12.5px / 16px = 0.78125 */
-  padding-bottom: .05em; /* 6.25px / 12.5px = .5 */
+  margin-left: 0.351736169733806em; /* 12.5px / 35.538px = 0.351736169733806 */
+  padding-bottom: 0.175868084866903em; /* 6.25px / 35.538px = 0.175868084866903 */
   list-style-type: disc;
 }
