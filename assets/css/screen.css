@@ -21,6 +21,7 @@ html {
   font-size: 1.25em; /* 20px / 16px = 1.125 */
   line-height: 1.25em; /* 25px / 20px/ = 1.25 */
   padding: 25px 12.5px 25px 12.5px; /*TRBL*/ /*   */
+  background-color: #E6E6FA
 }
 
 h1 {
@@ -68,4 +69,6 @@ ul {
 
 .nav a {
   text-decoration: none;
+  display:block;
+  background: #FFFFFF
 }
