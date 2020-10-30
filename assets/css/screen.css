@@ -47,3 +47,21 @@ ul {
   padding-bottom: 0.175868084866903em; /* 6.25px / 35.538px = 0.175868084866903 */
   list-style-type: disc;
 }
+
+  @media screen and (min-width: 490px) {
+    html {
+      padding: 25px 12% 25px 12%;
+    }
+    h1 {
+      text-align: left;
+    }
+  }
+
+  @media screen and (min-width: 620px) {
+    html {
+      padding: 100px 25% 25px 25%;
+    }
+    h1 {
+      padding-bottom: 50px
+    }
+}
