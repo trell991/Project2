@@ -49,18 +49,18 @@ ul {
   list-style-type: disc;
 }
 
-  @media screen and (min-width: 490px) {
+  @media screen and (min-width: 30.625em) {   /* 490px / 16px = 30.625em */
     html {
-      padding: 25px 12% 25px 12%;
+      padding: 0.051020408163265em 12% 0.051020408163265em 12%;    /* 25px / 490px = 0.051020408163265   */
     }
     h1 {
       text-align: left;
     }
   }
 
-  @media screen and (min-width: 620px) {
+  @media screen and (min-width: 38.75em ) {  /* 620px / 16px = 38.75em */
     html {
-      padding: 100px 25% 25px 25%;
+      padding: 100px 25% 25px 25%;     /*   */
     }
     h1 {
       padding-bottom: 50px
