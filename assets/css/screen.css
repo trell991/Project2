@@ -61,10 +61,10 @@ ul {
 
 @media screen and (min-width: 38.75em ) {  /* 620px / 16px = 38.75em */
   html {
-    padding: 100px 25% 25px 25%;     /* 100px / 620px = 0.161290322580645em */
+    padding: 0.161290322580645em 25% .25em 25%; /* 100px / 620px = 0.161290322580645em */                                        /* 25px / 100px = .25em   */
   }
   h1 {
-    padding-bottom: 50px
+    padding-bottom: 3.125em  /* 50px / 16px = 3.125em        */
   }
 }
 
@@ -81,7 +81,7 @@ ul {
 .nav li {
   padding-bottom: 8px
 }
-@media screen and (min-width: 330px) {
+@media screen and (min-width: 20.625em) {   /* 330px / 16px = 20.625em*/
   .nav li {
     text-align: center;
     float: left;
