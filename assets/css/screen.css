@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-      font-weight: 600;
+  font-weight: 600;
 }
 
 ul {
@@ -50,22 +50,22 @@ ul {
   list-style-type: disc;
 }
 
-  @media screen and (min-width: 30.625em) {   /* 490px / 16px = 30.625em */
-    html {
-      padding: 0.051020408163265em 12% 0.051020408163265em 12%;    /* 25px / 490px = 0.051020408163265   */
-    }
-    h1 {
-      text-align: left;
-    }
+@media screen and (min-width: 30.625em) {   /* 490px / 16px = 30.625em */
+  html {
+    padding: 0.051020408163265em 12% 0.051020408163265em 12%;    /* 25px / 490px = 0.051020408163265   */
   }
+  h1 {
+    text-align: left;
+  }
+}
 
-  @media screen and (min-width: 38.75em ) {  /* 620px / 16px = 38.75em */
-    html {
-      padding: 100px 25% 25px 25%;     /* 100px / 620px = 0.161290322580645em */
-    }
-    h1 {
-      padding-bottom: 50px
-    }
+@media screen and (min-width: 38.75em ) {  /* 620px / 16px = 38.75em */
+  html {
+    padding: 100px 25% 25px 25%;     /* 100px / 620px = 0.161290322580645em */
+  }
+  h1 {
+    padding-bottom: 50px
+  }
 }
 
 .nav a {
