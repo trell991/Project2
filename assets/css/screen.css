@@ -28,12 +28,12 @@ html {
 h1 {
   text-align: center;
   font-size: 1.7769em; /* 35.538px / 20px = 1.7769 */
-  padding-bottom:0.703472339467612em; /* 25px / 35.538px =0.703472339467612 */
- }
+  padding-bottom: 0.703472339467612em; /* 25px / 35.538px =0.703472339467612 */
+}
 
-p + p{
-  text-indent:0.703472339467612em;
-  padding-bottom:0.703472339467612em; /* 25px / 35.538px = 0.703472339467612 */
+p + p {
+  text-indent: 0.703472339467612em;
+  padding-bottom: 0.703472339467612em; /* 25px / 35.538px = 0.703472339467612 */
 }
 
 h2 {
