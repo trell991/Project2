@@ -17,7 +17,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 
 html {
-  font-family: "Roboto Condensed" , "Times New Roman" , "Georgia" , "sans-serif";
+  font-family: "Roboto Condensed" , Arial , Georgia , sans-serif;
   font-size: 1.25em; /* 20px / 16px = 1.125 */
   line-height: 1.25em; /* 25px / 20px/ = 1.25 */
   padding: 1em 0.5em 1em 0.5em; /*TRBL*/ /*   */
@@ -52,7 +52,7 @@ ul {
 
 @media screen and (min-width: 30.625em) {   /* 490px / 16px = 30.625em */
   html {
-    padding: 0.051020408163265em 12% 0.051020408163265em 12%;    /* 25px / 490px = 0.051020408163265   */
+    padding: 0.051020408163265em 12% 0.051020408163265em 12%;  /* 25px / 490px = 0.051020408163265   */
   }
   h1 {
     text-align: left;
@@ -93,4 +93,8 @@ img {
   display: block;
   padding-bottom: 50%;
   max-width: 100%;
+}
+
+li {
+  list-style-type: none;
 }
