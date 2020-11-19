@@ -20,7 +20,7 @@ html {
   font-family: "Roboto Condensed" , "Times New Roman" , "Georgia" , "sans-serif";
   font-size: 1.25em; /* 20px / 16px = 1.125 */
   line-height: 1.25em; /* 25px / 20px/ = 1.25 */
-  padding: 1em .5em 1em .5em; /*TRBL*/ /*   */
+  padding: 1em 0.5em 1em 0.5em; /*TRBL*/ /*   */
   /* (25px / 25px = 1em), 12.5 px / 25px = .5em */
   background-color: #E6E6FA
 }
