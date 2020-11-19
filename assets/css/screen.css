@@ -95,6 +95,10 @@ img {
   max-width: 100%;
 }
 
-li {
+li .nav {
   list-style-type: none;
+}
+
+title {
+  text-align: center;
 }
