@@ -61,10 +61,10 @@ ul {
 
 @media screen and (min-width: 38.75em ) {  /* 620px / 16px = 38.75em */
   html {
-  
+
   }
   h1 {
-    padding-bottom: 3.125em  /* 50px / 16px = 3.125em        */
+    padding-top: 3.125em  /* 50px / 16px = 3.125em        */
   }
 }
 
