@@ -25,49 +25,36 @@ html {
   background-color: #E6E6FA;
 }
 
-h1 {
-  text-align: center;
-  font-size: 1.7769em; /* 35.538px / 20px = 1.7769 */
-  padding-bottom: 0.703472339467612em; /* 25px / 35.538px =0.703472339467612 */
+
+
+
+                      /*Mobile First queries*/
+@media screen and (min-width: 20.625em) {   /* 330px / 16px = 20.625em*/
+  .nav li {
+    text-align: center;
+    float: left;
+    width: 33.3333333333%;
+  }
 }
 
-p + p {
-  text-indent: 0.703472339467612em;
-  padding-bottom: 0.703472339467612em; /* 25px / 35.538px = 0.703472339467612 */
-}
 
-h2 {
-  padding-bottom: 0.175868084866903em; /* 6.25x / 35.538px = 0.175868084866903 */
-}
-
-h3 {
-  font-weight: 600;
-}
-
-ul {
-  margin-left: 0.351736169733806em; /* 12.5px / 35.538px = 0.351736169733806 */
-  padding-bottom: 0.175868084866903em; /* 6.25px / 35.538px = 0.175868084866903 */
-  list-style-type: disc;
-}
-
-@media screen and (min-width: 30.625em) {   /* 490px / 16px = 30.625em */
+@media screen and (min-width: 30.625em) {  /* 490px / 16px = 30.625em */
   html {
     padding: 0.051020408163265em 12% 0.051020408163265em 12%;  /* 25px / 490px = 0.051020408163265   */
   }
-  h1 {
-    text-align: left;
-  }
-}
 
+                      /* Larger screen queries */
 @media screen and (min-width: 38.75em ) {  /* 620px / 16px = 38.75em */
   html {
 
   }
-  h1 {
-    padding-top: 3.125em  /* 50px / 16px = 3.125em        */
-  }
-}
 
+  @media screen and (min-width: 1360px) {
+    html {
+    }
+
+
+                        /* Navigation styling */
 .nav a {
   text-decoration: none;
   display: block;
@@ -83,25 +70,56 @@ ul {
   list-style-type: none;
 }
 
-
-@media screen and (min-width: 20.625em) {   /* 330px / 16px = 20.625em*/
-  .nav li {
-    text-align: center;
-    float: left;
-    width: 33.3333333333%;
-  }
+                        /* Heading styling */
+h1 {
+  text-align: left;
+      }
 }
 
+h1 {
+  padding-top: 3.125em  /* 50px / 16px = 3.125em */
+}
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 1.7769em; /* 35.538px / 20px = 1.7769 */
+  padding-bottom: 0.703472339467612em; /* 25px / 35.538px =0.703472339467612 */
+}
+
+
+h2 {
+  padding-bottom: 0.175868084866903em; /* 6.25x / 35.538px = 0.175868084866903 */
+}
+
+h3 {
+  font-weight: 600;
+}
+                        /* Image styling */
 img {
   display: block;
   max-width: 100%;
   padding-top: 30%%;
 }
 
+                        /* Title styling */
 title {
   text-align: center;
 }
 
-@media screen and (min-width: 1360px) {
-  html {
-  }
+
+
+
+p + p {           /* Auto Indent */
+  text-indent: 0.703472339467612em;
+  padding-bottom: 0.703472339467612em; /* 25px / 35.538px = 0.703472339467612 */
+}
+
+
+
+ul {                      /* Unordered list styling */
+  margin-left: 0.351736169733806em; /* 12.5px / 35.538px = 0.351736169733806 */
+  padding-bottom: 0.175868084866903em; /* 6.25px / 35.538px = 0.175868084866903 */
+  list-style-type: disc;
+}
